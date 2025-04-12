@@ -9,6 +9,7 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/', // 如果是子目录要改成'/子目录名/'
   plugins: [
     vue(),
     vueDevTools(),
